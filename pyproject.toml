@@ -2,4 +2,7 @@
 name = "sqlassignement"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "alembic>=1.20.0",
+    "sqlalchemy>=2.0,<3.0",
+]
