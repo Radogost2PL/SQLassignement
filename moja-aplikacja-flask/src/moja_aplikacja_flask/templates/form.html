@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <title>Formularz</title>
+</head>
+<body>
+   <h1>Wpisz swoje imię</h1>
+
+
+
+   <form method="POST">
+       <label for="user_name">Imię:</label>
+       <input type="text" id="user_name" name="user_name" required>
+       <button type="submit">Wyślij</button>
+   </form>
+
+
+
+   {% if name %}
+       <h2>Witaj, {{ name }}!</h2>
+   {% endif %}
+</body>
+</html>
